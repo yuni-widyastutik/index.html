@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: ivory;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 150px 0 150px 0;
+  background-image: url(AMPERA3.jpg);
+  background-size: cover;
+  color: rgb(241, 235, 235);
+  text-align: center;
+}
+.top-wrapper h1 {
+  color: rgb(202, 226, 241);
+  font-size: 60px;
+  margin-bottom: 50px;
+  line-height: 40px;
+}
+.top-wrapper p {
+  color: rgb(240, 243, 245);
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 3px;
+  line-height: 10px;
+}
+.btn {
+  padding: 12px 50px;
+  color: rgb(10, 39, 46);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: rgb(10, 39, 46);
+}
+.btn hover {
+  opacity: 1;
+}
+.signup {
+  font-size: 20px;
+  font-weight: bold;
+  border-style: solid;
+  color:rgb(204, 208, 221);
+  padding: 15px 40px;
+  background-color: none;
+  cursor: pointer;
+  box-shadow: 0 7px #555;
+}
+.signup:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
